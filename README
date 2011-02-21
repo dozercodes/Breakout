@@ -5,3 +5,40 @@ Final Project
 Breakout
 
 Welcome to my Breakout Game!
+Outline:
+	main.py
+		Main script to run game
+	gui.py
+		paddle
+		board
+		blocks[]
+		ball
+		drawBoard()
+		drawPaddle()
+		drawBlocks()
+		drawBall()
+	board.py
+		width
+		Height
+		setWdith()
+		setHeight()
+	block.py
+		color
+		width
+		height
+		setWidth()
+		setHeight()
+		onHit()
+		setColor()
+	ball.py
+		diameter
+		speed
+		setDiameter()
+		setSpeed()
+		move()
+	paddle.py
+		width
+		height
+		setWidth()
+		setHeight()
+		move()
