@@ -4,6 +4,11 @@ import board, block, ball, paddle
 from Tkinter import *
 
 class GUI:
+    board = board.Board()
+    paddle = paddle.Paddle()
+    block = block.Block()
+    ball = ball.Ball()
+    
     def startGame(self):
         return
     
